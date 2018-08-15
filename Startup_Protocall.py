@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 '''
 This is the startup protocall.
 It will run on startup. (Hence the obvious name)
