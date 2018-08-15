@@ -30,7 +30,6 @@ while True:
         print("Ok! Starting up character load program!")
         load_character()
     elif user_command == 5:
-        print("Ok! Starting shutdown protocall!")
         shutdown_protocall()
         break
     else:
