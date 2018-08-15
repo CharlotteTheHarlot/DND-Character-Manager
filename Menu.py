@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 '''
-This is the menu that interpruts, translates, and outputs a usable user input. 
+This is the menu that determines what the user types and outputs a number. 
 '''
 
 def menu(user_input):
