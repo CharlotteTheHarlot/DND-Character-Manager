@@ -51,3 +51,14 @@ def cap_word(word):
     first_half = word.upper()[0]
     second_half = word.lower()[1:]
     return first_half + second_half
+
+def confirm_input(x):
+    print("You typed " + x + ".")
+    print("Is this correct?")
+    answer = menu(cap_word(input("> ")))
+    if answer == 1:
+        return 1
+    elif answer == 2:
+        print("Oh! I must have misheard you. Could you repeat that?")
+    else:
+        print("I'm sorry. I didn't understand what you just said. Please try again.")
