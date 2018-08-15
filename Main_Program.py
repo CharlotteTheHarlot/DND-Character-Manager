@@ -28,5 +28,9 @@ while True:
     elif user_command == 4:#This means create character.
         print("Ok! Starting up character load program!")
         load_character()
+    elif user_command == 5:
+        print("Ok! Starting shutdown protocall!")
+        shutdown_protocall()
+        break
     else:
         print("I'm sorry. I didn't understand what you just said. Please try again.")

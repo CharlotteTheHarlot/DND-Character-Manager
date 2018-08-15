@@ -9,9 +9,9 @@ def menu(user_input):
         return 1
     elif user_input in ['No', 'N', 'Deny']:
         return 2
-    elif user_input in ['Load', 'Load character']:
-        return 3
     elif user_input in ['New', 'New character', 'Create', 'Create new', 'Create new character', 'Create character']:
+        return 3
+    elif user_input in ['Load', 'Load character']:
         return 4
     elif user_input in ['Quit', 'Exit', 'Terminate', 'Terminate program']:
         return 5
