@@ -5,6 +5,7 @@ This is where I will put all the things that create, save, and load characters.
 '''
 
 from Menu import confirm_input
+from time import sleep
 
 def create_character():
     print("Welcome to the charater creator!")
@@ -48,6 +49,16 @@ def create_character():
         if answer == 1:
             print("Sweet!")
             break
+    
+    print("Time to finalize this character!\n")
+    print("Name: " + new_character_name)
+    print("Race: " + new_character_race)
+    print("Class: " + new_character_class)
+    print("Level: " + new_character_level + " EXP: " + new_character_EXP + "\n")
+    print("Please review and make sure this information is all correct.")
+    sleep(3)
+    print("Is everything all correct and the way you want it?")
+    answer = input("> ")
 
 def save_character():
     print("Saving charcter.")
