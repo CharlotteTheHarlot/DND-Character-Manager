@@ -45,3 +45,9 @@ def menu(user_input):
 #        return 19
     else:
         return 0#This means the input was not recognized.
+
+def cap_word(word):
+    word = str(word)
+    first_half = word.upper()[0]
+    second_half = word.lower()[1:]
+    return first_half + second_half

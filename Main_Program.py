@@ -12,6 +12,7 @@ And as I think of more I will add it.
 '''
 
 from Startup_Protocall import startup_protocall
+from Menu import menu, cap_word
 from Character_Things import create_character, save_character, load_character
 
 startup_protocall()
@@ -20,7 +21,7 @@ while True:
     print("Load Existing Character: ")
     print("Create a New Character: ")
     print("Quit the Program: ")
-    user_command = input("What would you like to do? > ")
+    user_command = menu(cap_word(input("What would you like to do? > ")))
     if user_command == 3:#This means load character.
         print("Ok! Starting up character creator program!")
         create_character()
