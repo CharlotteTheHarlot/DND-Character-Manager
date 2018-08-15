@@ -47,6 +47,7 @@ def create_character():
         answer = confirm_input(new_character_EXP)
         if answer == 1:
             print("Sweet!")
+            break
 
 def save_character():
     print("Saving charcter.")
